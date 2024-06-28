@@ -88,6 +88,7 @@ const editAdmin = (id: number) => {
   gap: 10px;
   margin-bottom: 1rem;
   align-items: center;
+  justify-content: flex-end;
 }
 
 table {

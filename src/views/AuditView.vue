@@ -24,7 +24,7 @@ const filteredCompanies = computed(() => {
     <Sidebar />
     <main class="main-content">
       <div class="table-header">
-        <h2>User Management</h2>
+        <h2>Audit</h2>
         <input
           type="text"
           v-model="searchQuery"
