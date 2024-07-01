@@ -1,5 +1,11 @@
 <script setup lang="ts">
 import Sidebar from '@/components/Sidebar.vue';
+import IconClientManagementName from '@/components/icons/IconClientManagementName.vue';
+import IconClientManagementEmailAddress from '@/components/icons/IconClientManagementEmailAddress.vue';
+import IconClientManagementCompany from '@/components/icons/IconClientManagementCompany.vue';
+import IconClientManagementWebpage from '@/components/icons/IconClientManagementWebpage.vue';
+import IconClientManagementLicenseStatus from '@/components/icons/IconClientManagementLicenseStatus.vue';
+
 import { ref } from 'vue';
 
 const admins = ref([
@@ -47,11 +53,11 @@ const editAdmin = (id: number) => {
         <thead>
           <tr>
             <th></th>
-            <th>🔽 Name</th>
-            <th>🔽 Email Address</th>
-            <th>🔽 Company</th>
-            <th>🔽 Webpage</th>
-            <th>🔽 Status</th>
+            <th><IconClientManagementName/> Name</th>
+            <th><IconClientManagementEmailAddress/> Email Address</th>
+            <th><IconClientManagementCompany/> Company</th>
+            <th><IconClientManagementWebpage/> Webpage</th>
+            <th><IconClientManagementLicenseStatus/> License Status</th>
             <th></th>
           </tr>
         </thead>
